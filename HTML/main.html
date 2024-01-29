@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CODER.US</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/header.css" />
+    <link rel="stylesheet" href="../CSS/login.css" />
+    <link rel="stylesheet" href="../CSS/signup.css" />
+    <link rel="stylesheet" href="../CSS/sale.css" />
+    <link rel="stylesheet" href="../CSS/info.css" />
+    <link rel="stylesheet" href="../CSS/blogs.css" />
+    <link rel="stylesheet" href="../CSS/guides.css" />
+    <link rel="stylesheet" href="../CSS/news.css" />
+    <link rel="stylesheet" href="../CSS/footer.css" />
+    <link rel="stylesheet" href="../CSS/guides.css" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="md">
+        <div class="hhdd1s">
+          <div class="hd">
+            <h3>
+              <span style="color: #000000">CODER.</span
+              ><span style="color: #1111f9">US</span>
+            </h3>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">EXPLORE</button>
+            <div class="dropdown-content">
+              <a href="#">Home</a>
+              <a href="#">Guides</a>
+              <a href="#">Blogs</a>
+              <a href="#">Courses</a>
+              <a href="#">Services</a>
+              <a href="#">Services</a>
+            </div>
+          </div>
+        </div>
+        <div class="hhdd2s">
+          <div class="help">
+            <a href="#">Help</a>
+          </div>
+          <div class="dropdown1">
+            <button class="dropbtn1">JOIN FOR FREE</button>
+            <div class="dropdown1-content1">
+              <a class="log" onclick="document.getElementById('id01').style.display='block'">Login</a>
+              <a class="log" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- <div class="exe">
+          <form class="example">
+            <button type="submit">
+              <i class="fa fa-search"></i>
+            </button>
+            <input type="text" placeholder="Search.." name="search" />
+          </form>
+        </div> -->
+      </div>
+    </header>
+
+    <!-- LOGIN FORM -->
+    <div id="id01" class="modal">
+  
+      <form class="modal-content animate" action="/action_page.php" method="post" id="llo">
+    
+        <div class="container">
+          <h1>Login</h1>
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+    
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+            
+          <button type="submit" id="login_bt">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+    
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn1">Cancel</button>
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="frgtbtn">Forgot Password ?</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Signup Form -->
+    <div id="id02" class="modal1">
+      <div class="signupmain">
+      <form class="modal1-content" action="main2.html">
+        <div class="container">
+          <h1>Sign Up</h1>
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+    
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+    
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+          
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+    
+          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+    
+          <div class="clearfix">
+            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Sign Up</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    </div>
+
+    <!-- SALE ADVERTISING -->
+    <div class="sale">
+      <h2>
+        New Launch Offering | Flat 90% off on our all products and services
+      </h2>
+    </div>
+
+    <div class="bod">
+      
+        <div class="info">
+          <div class="logoin">
+            <img src="../Images/logoin.png" alt="">
+          </div>
+          <hr>
+            <div class="logoin2">
+              <h3>CODER.<span style="color: #1111f9;">US</span> is a community of 8000+ PROGRAMMERS</h3>
+            </div>
+            <div class="logoin3">
+              <h3><q> WE ARE A PLACE WHERE PROGRAMMERS STAY UP TO DATE AND GROW THEIR CAREERS, ALSO WE HELP TO GET YOUR DREAM JOB </q></h3>
+            </div>
+            <div class="infolist">
+              <ol>
+                <li id="infoma"><h2>Quick Links</h2></li>
+                <li id="infoli">Website Designing</li>
+                <li id="infoli">Full Stack Development</li>
+                <li id="infoli">GITHUB Account</li>
+                <li id="infoli">Instagram Account</li>
+                <li id="infoli">Write an guide</li>
+              </ol>
+            </div>
+          </div> 
+          <!-- INFO END -->
+        
+        <div class="main">
+        <div class="blogs">
+          <div class="hea">
+            <h1 id="he" style="float: left;">BLOGS</h1>
+            <div id="b1bt1" style="float: right;">
+              <button id="b1bt2">VIEW MORE</button>
+            </div>
+            <!-- <h1>Explore..</h1> -->
+          </div>
+          <div class="b1">
+            <h1>What is not changing about programming</h1>
+            <p><ul>
+              <li id="b1li1">JAVASCRIPT</li>
+              <li> 14 NOV</li>
+              <li> 6 min read</li>
+            </ul></p>
+            <button class="blbt">NEW</button>
+          </div>
+          <div class="b1">
+            <h1>What is not changing about programming</h1>
+            <p><ul>
+              <li id="b1li1">JAVASCRIPT</li>
+              <li> 14 NOV</li>
+              <li> 6 min read</li>
+            </ul></p>
+            <button class="blbt">NEW</button>
+          </div>
+          <div class="b1">
+            <h1>What is not changing about programming</h1>
+            <p><ul>
+              <li id="b1li1">JAVASCRIPT</li>
+              <li> 14 NOV</li>
+              <li> 6 min read</li>
+            </ul></p>
+            <button class="blbt">NEW</button>
+          </div>
+          <div class="b1">
+            <h1>What is not changing about programming</h1>
+            <p><ul>
+              <li id="b1li1">JAVASCRIPT</li>
+              <li> 14 NOV</li>
+              <li> 6 min read</li>
+            </ul></p>
+          </div>
+          <div class="b1">
+            <h1>What is not changing about programming</h1>
+            <p><ul>
+              <li id="b1li1">JAVASCRIPT</li>
+              <li> 14 NOV</li>
+              <li> 6 min read</li>
+            </ul></p>
+          </div>
+          
+          
+          
+          <br />
+          <br />
+          <br />
+          <!-- <div class="hea">
+            <h1 id="he">OUR GUIDES</h1>
+            <h1>Explore..</h1>
+          </div> -->
+        </div>
+        <!--BLOGS-->
+        <!-- <div class="div1">
+      <div class="divv">
+        <div class="div2">
+          <h2>Coding</h2>
+        </div>
+        <div class="div3">
+          <h2>Computing</h2>
+        </div>
+      </div>
+
+      <div class="divv">
+        <div class="div2">
+          <h2>Internet of Things</h2>
+        </div>
+        <div class="div3">
+          <h2>Data Analysis</h2>
+        </div>
+      </div>
+
+      <div class="divv">
+        <div class="div2">
+          <h2>Data Visualisation</h2>
+        </div>
+        <div class="div3">
+          <h2>Data Science</h2>
+        </div>
+      </div>
+
+      <div class="divv">
+        <div class="div2">
+          <h2>Machine Learning</h2>
+        </div>
+        <div class="div3">
+          <h2>Artificial Intelligence</h2>
+        </div>
+      </div>
+    </div> -->
+        <!--DIV1-->
+          </div>
+          <!-- MAIN END -->
+
+        <div class="news">
+        <div class="newh">
+          <h1 id="newhd">NEWS</h1>
+        </div>
+        <DIV class="n1">
+            <h1>Software and Technology are changing the Accountancy Industry</h1>
+        </DIV>
+        <DIV class="n1">
+            <h1>The design technology space in India is undergoing a massive transformation!</h1>
+        </DIV>
+        <DIV class="n1">
+            <h1>Affiliate Marketing Software Market- Industry Predictions For Coming Years</h1>
+        </DIV>
+        <DIV class="n1">
+            <h1>Marketing technology essentials: Industry experts share their tips</h1>
+        </DIV>
+        <DIV class="n1">
+            <h1>New software provides early warning data for (re)insurance industry</h1>
+        </DIV>
+        <div id="n1bt21">
+          <button id="n1bt22">VIEW MORE</button>
+        </div>
+        
+          </div>
+          <!-- NEWS END -->
+    </div>
+    <!-- bod -->
+
+    <footer>
+      <div class="ft">
+        <!-- <div class="ff">
+          <div class="ft2">
+            <img src="../Images/LOGOO.png" alt="" />
+            <div class="h4">
+              <h3>CODER.<span id="us">US</span></h3>
+            </div>
+          </div>
+          <div class="ft3">
+            <div class="ico1">
+              <i class="material-icons">&#xe55c;</i>
+              <div class="ft4"> <p>Nashik, Maharashtra India</p></div>
+            </div>
+            <div class="ico1">
+              <i class="material-icons">&#xe551;</i>
+             <div class="ft4"> <p>+91 9922026188</p></div>
+            </div>
+            <div class="ico1">
+              <i class="material-icons">&#xe554;</i>
+             <div class="ft4"> <p>coder.us20@gmail.com</p></div>
+            </div>
+          </div>
+        </div> -->
+        <div class="ft1">
+          <h3>About Us</h3>
+          <p>Contact Us</p>
+          <p>Developer</p>
+          <p>Goals</p>
+          <p>Help</p>
+        </div>
+
+        <div class="ft1">
+          <h3>Trending</h3>
+          <p>Blockchain</p>
+          <p>IOT</p>
+          <p>Analytics</p>
+          <p>Marketing</p>
+        </div>
+
+        <div class="ff">
+          <div class="ft2">
+            <img src="../Images/wht lo.png" alt="" />
+          </div>
+          <div class="ico1">
+            <a
+              href="https://www.instagram.com/coder.us"
+              target="_blank"
+              class="fa fa-instagram"
+              id="mi2"
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/codersuyash"
+              target="_blank"
+              class="fa fa-linkedin"
+            ></a>
+            <a
+              href="https://api.whatsapp.com/send?phone=+919922026188"
+              target="_blank"
+              class="fa fa-whatsapp"
+            ></a>
+            <a
+              href="mailto:coder.us20@gmail.com"
+              target="_blank"
+              class="material-icons"
+              id="mi1"
+              >&#xe554;</a
+            >
+          </div>
+          <div class="ft5">
+            <p>&copy All Copyrights Reserved 2021</p>
+          </div>
+        </div>
+
+        <div class="ft1">
+          <h3>Services</h3>
+          <p>Content Creation</p>
+          <p>UI/UX Design</p>
+          <p>SEO</p>
+          <p>SMM</p>
+        </div>
+
+        <div class="ft1">
+          <h3>Contribute</h3>
+          <p>Write an article</p>
+          <p>Write an guide</p>
+          <p>Suggestions</p>
+          <p>Support us</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
